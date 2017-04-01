@@ -1,0 +1,127 @@
+/*
+Theme Name: mfvsu
+Theme URI: https://github.com/ijustbsd/mfvsu-theme
+Author: IJustBSD
+Author URI: https://vk.com/ijustbsd
+Description: Theme for https://math.vsu.ru/
+Template: twentytwelve
+Version: 0.1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+@import url("../twentytwelve/style.css");
+
+/* Page */
+a {
+	color: #FF9800;
+}
+a:hover {
+	color: #555;
+}
+a:focus {
+	outline: none;
+}
+.site {
+	border-top: 2px solid #FF9800;
+}
+
+/* Buttons */
+.bypostauthor cite span {
+	background-color: #FF9800;
+}
+
+/* Small headers */
+.archive-title,
+.page-title,
+.widget-title,
+.entry-content th,
+.comment-content th {
+	font-size: 14px;
+	line-height: 2.181818182;
+	padding: 6px 10px;
+	font-weight: bold;
+	color: #FF9800;
+	border-top: 1px solid #FFE0B2;
+	border-bottom: 1px solid #FFE0B2;
+	text-transform: none;
+}
+
+/* Header */
+.site-header h1 a:hover,
+.site-header h2 a:hover {
+	color: #FF9800;
+}
+.header-image {
+	margin-top: 0;
+}
+
+/* Navigation Menu */
+.main-navigation li a {
+	font-size: 14px;
+	text-transform: none;
+}
+.main-navigation li a:hover,
+.main-navigation li a:focus {
+	color: #FF9800;
+}
+
+/* Sidebar */
+.widget-area .widget a:hover {
+	color: #FF9800;
+}
+
+/* Footer */
+.site-info {
+	text-align: center;
+}
+footer[role="contentinfo"] a {
+	color: #FFA726;
+}
+footer[role="contentinfo"] a:hover {
+	color: #555;
+}
+
+/* Main content and comment content */
+.comments-link a:hover,
+.entry-meta a:hover {
+	color: #FF9800;
+}
+.entry-content a:visited,
+.comment-content a:visited {
+	color: #FF9800;
+}
+
+/* Status posts */
+.format-status .entry-header header a:hover {
+	color: #FF9800;
+}
+
+/* Comments */
+.comments-area article header a:hover {
+	color: #FF9800;
+}
+a.comment-reply-link:hover,
+a.comment-edit-link:hover {
+	color: #FF9800;
+}
+
+/* Front page template */
+.template-front-page .widget-area .widget li a:hover {
+	color: #FF9800;
+}
+
+@-ms-viewport {
+	width: device-width;
+}
+@viewport {
+	width: device-width;
+}
+
+/* Media queries */
+@media screen and (min-width: 600px) {
+	.main-navigation li ul li a:hover,
+	.main-navigation li ul li a:focus {
+		color: #FF9800;
+	}
+}
