@@ -46,6 +46,10 @@ a:focus {
 	border-bottom: 1px solid #FFE0B2;
 	text-transform: none;
 }
+.archive-title {
+	padding: 0;
+	border: none;
+}
 
 /* Header */
 .site-header h1 a:hover,
