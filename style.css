@@ -5,7 +5,7 @@ Author: IJustBSD
 Author URI: https://vk.com/ijustbsd
 Description: Theme for https://math.vsu.ru/
 Template: twentytwelve
-Version: 0.1.0
+Version: 0.1.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -124,6 +124,13 @@ a.comment-edit-link:hover {
 
 /* Media queries */
 @media screen and (min-width: 600px) {
+	.main-navigation ul.nav-menu,
+	.main-navigation div.nav-menu > ul {
+		text-align: center;
+	}
+	.main-navigation li {
+		margin: 0 35px 0 0;
+	}
 	.main-navigation li ul li a:hover,
 	.main-navigation li ul li a:focus {
 		color: #FF9800;
